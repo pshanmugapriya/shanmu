@@ -8,7 +8,7 @@ c=scan.next().charAt(0);
 if(ch=='a'||ch=='e'||ch=='i'||ch=='o'||ch=='u'){
 	System.out.println("vowel");
 }
-else if(ch>='b'&&ch<='z'&& (!(ch=='e'||ch=='i'||ch=='o'||ch=='u'))){
+else if(ch>='b'&& ch<='z'){
 	System.out.println("consonant");
 }
 else{
